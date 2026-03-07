@@ -1,14 +1,17 @@
 header {
     background-color: #90baad;
     color: white;
-   
+
 }
 
 .intro {
     display: flex;
-    align-items: center;   /* vertically center text with image */
-    justify-content: flex-start; /* keep everything starting from left */
-    gap: 80px; /* space between image and text */
+    align-items: center;
+    /* vertically center text with image */
+    justify-content: flex-start;
+    /* keep everything starting from left */
+    gap: 80px;
+    /* space between image and text */
     padding: 30px;
     margin-left: 100px;
 }
@@ -23,13 +26,13 @@ header {
     font-family: 'avenir light', sans-serif;
     background-color: white;
     padding: 0px 30px 15px 40px;
-    
+
 
 
 }
 
 .navLi {
-  
+
     border-radius: 25px;
 
     padding: 30px;
