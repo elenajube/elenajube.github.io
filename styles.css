@@ -4,7 +4,8 @@ header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    font-family: 'ayuthaya';
+   
+
 }
 
 .intro {
@@ -12,7 +13,38 @@ header {
     padding: 150px
 }
 
+.main-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: flex-end;
+    font-family: 'avenir light', sans-serif;
+    background-color: black;
+    border-radius: 25px;
+    padding: 0px 30px 15px 40px;
+    
 
+
+}
+
+.navLi {
+  
+    border-radius: 10px;
+    padding: 0px 30px;
+
+}
+
+
+.main-nav li {
+    padding: 15px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: white;
+
+}
 
 .sub-heading {
     font-family: 'bradley hand';
@@ -26,50 +58,61 @@ header {
     border-color: peachpuff;
     border-width: 10px;
     border-style: solid;
-
 }
 
-
-body {
-    font-family: 'avenir', sans-serif;
+.site-heading {
+    font-family: 'bradley hand';
+    font-size: 40px;
+    text-align: center;
 }
 
 h1 {
-    font-family: 'ayuthaya';
-    font-size: 30px;
+    font-family: 'ayuthaya' serif;
+    font-size: 40px;
 }
 
-p {
-    font-size: 18px;
+main {
+    font-family: 'avenir light';
 
-}
+    p {
+        font-size: 18px;
+        font-family: 'avenir light' sans-serif;
 
-
-
-h2 {
-    border: solid peachpuff 3px;
-    text-align: center;
-    max-width: 70%;
-    padding: 10px;
-    font-family: 'ayuthaya';
-    font-size: 20px;
-    border-radius: 50%;
-}
+    }
 
 
 
+    h2 {
+        border: solid peachpuff 3px;
+        text-align: center;
+        max-width: 70%;
+        padding: 10px;
+        border-radius: 50%;
+        font-family: 'avenir light' sans-serif;
+        font-size: 20px;
+    }
+
+    ul {
+        font-family: 'avenir light';
+    }
+
+    li {
+        font-family: 'avenir';
+        font-size: 18px;
+    }
 
 
 
-footer {
-    background-color: #CBF6E9;
-}
 
-.centered {
-    text-align: center;
-}
+    footer {
+        background-color: #CBF6E9;
+    }
 
-.intro {
-    max-width: 500px;
-    text-align: left;
-}
+    .centered {
+        text-align: center;
+    }
+
+    .intro {
+        max-width: 500px;
+        text-align: left;
+    }
