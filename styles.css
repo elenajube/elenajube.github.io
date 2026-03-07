@@ -1,27 +1,27 @@
 header {
     background-color: #90baad;
     color: white;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
    
-
 }
 
 .intro {
-    margin: 50px;
-    padding: 150px
+    display: flex;
+    align-items: center;   /* vertically center text with image */
+    justify-content: flex-start; /* keep everything starting from left */
+    gap: 80px; /* space between image and text */
+    padding: 30px;
+    margin-left: 100px;
 }
 
 .main-nav ul {
     list-style-type: none;
-    margin: 0;
+    margin: 0px;
     padding: 0;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
+    justify-content: space-evenly;
     font-family: 'avenir light', sans-serif;
-    background-color: black;
-    border-radius: 25px;
+    background-color: white;
     padding: 0px 30px 15px 40px;
     
 
@@ -30,8 +30,11 @@ header {
 
 .navLi {
   
-    border-radius: 10px;
-    padding: 0px 30px;
+    border-radius: 25px;
+
+    padding: 30px;
+    margin-top: 10px;
+    background-color: #90baad;
 
 }
 
