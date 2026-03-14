@@ -121,9 +121,27 @@ main {
         /* max-width: 200px; */
         display: flex;
 
-
     }
 
+    .substack-button {
+        display: inline-block;
+        /* Allows the link to have padding and margins, like a button */
+        padding: 10px 15px;
+        /* Space inside the button */
+        background-color: white;
+        /* Example background color (Substack orange) */
+        color: black;
+        /* Text color */
+        text-align: center;
+        /* Center the text within the button */
+        text-decoration: none;
+        /* Removes the default underline from the link */
+        border-radius: 50px;
+        /* Rounds the corners of the button */
+        cursor: pointer;
+        /* Changes the cursor to a hand icon on hover */
+
+    }
 
     footer {
         background-color: #CBF6E9;
