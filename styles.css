@@ -116,11 +116,13 @@ main {
         font-size: 18px;
     }
 
-.aboutSection {
-    background-color: aliceblue;
-    /* max-width: 200px; */
-    display: flex;
-}
+    .aboutSection {
+        background-color: aliceblue;
+        /* max-width: 200px; */
+        display: flex;
+
+
+    }
 
 
     footer {
