@@ -72,10 +72,19 @@ header {
     text-align: center;
 }
 
-h1 {
+/* .intro h1 {
+
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+
+/* h1 {
     font-family: 'ayuthaya' serif;
     font-size: 40px;
-}
+} */
 
 main {
     font-family: 'avenir light';
@@ -107,7 +116,11 @@ main {
         font-size: 18px;
     }
 
-
+.aboutSection {
+    background-color: aliceblue;
+    /* max-width: 200px; */
+    display: flex;
+}
 
 
     footer {
